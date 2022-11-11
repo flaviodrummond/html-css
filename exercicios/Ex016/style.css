@@ -1,0 +1,26 @@
+@charset "UTF-8";
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #08FCFD, #006374);
+}
+main {
+    background-color: #ffff;
+    border-radius: 5%;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 15px #06b3b3d0;
+}
+h1 {
+    color: #D9042B;
+    text-align: center;
+    text-shadow: 1px 1px 2px #7202179a;
+}
+h2 {
+color: #E6BF0B;
+}
+p {
+    text-align: justify;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: darkcyan;
+        }
+        header {
+            background-color: brown;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: white;
+            text-align: left;
+            padding: 3px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.322);
+            border-radius: 5px 0px 0px 0px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main {
+            background-color: coral;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: cornflowerblue;
+            padding: 10px;
+            border-radius: 5px 10px 20px;          
+        }
+        article > h2 {
+            margin: 10px;
+        }
+        article > p {
+            margin: 3px;
+        }
+        aside > p {
+            background-color: white;
+        }
+        footer {
+            background-color: darkgray;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 0,5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id= "assuntos">
+            <p>Esporte Política Policial</p>
+        </section>
+        <section  id= "notícias">
+            <article>
+                <h2>Notícias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur itaque molestiae aliquid fugiat corrupti ipsum provident eius, nostrum, animi eum ut commodi laborum rerum corporis voluptates eos. Repudiandae, cumque minus.</p>
+                <aside>
+                    <p>Artigo escrito por Flávio Drumond.</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        	<p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+</body>
+</html>
