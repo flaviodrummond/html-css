@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0PX;
+}
+
+html, body {
+    min-height: 100vh; /* Tamanho mínimo do corpo do site */
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px; /* Espaçamento do topo do texto */
+    /* text-transform: uppercase; Trnasforma em letra Maiúscula gritante */
+    font-variant: small-caps; /* Transforma em letras Maiúscula mais natural*/
+}
+
+header > p {
+    padding-bottom: 50px; /* Espaçamento em baixo do texto */
+}
+
+header a, footer a {
+    color: white; /* Trocar a cor da letra */
+    text-decoration: none; /* Tirar o sublinhado do link */
+    font-weight: bolder; /* Colocar negrito */
+}
+
+section {
+    padding-top: 10vh; /* Espaçamento em cima de 10% da altura */
+    padding-bottom: 10vw; /* Espaçamento em baixo de 10% de altura */
+    line-height: 2em; /* Espaçamento duplo da frase de baixo para a de cima */
+    padding-left: 30px; /* Espaçamento da esquerda para a direita */
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(60, 63, 63);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px; /* Tamanho da caixa */
+    background-color: rgba(0, 0, 0, 0.253); /* Caixa dentro do paragrafo de imagem */
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline; /* Colocando o mouse em cima do link, fica sublinhado */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
