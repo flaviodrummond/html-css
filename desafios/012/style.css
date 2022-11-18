@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Russo One', sans-serif;
+    --fonte3: 'Courgette', cursive;
+}
 
 * {
     margin: 0px;
@@ -6,6 +14,7 @@
 }
 
 html, body {
+    font-family: var(--fonte1);
     min-height: 100vh; /* Tamanho mínimo do corpo do site */
     background-color: darkgray;
 }
@@ -17,6 +26,8 @@ header {
 }
 
 header > h1 {
+    font-family: var(--fonte2);
+    font-size: 7vw; /* em: Aumentando o tamanho da letra, já a vw, ajusta conforme a tela */
     padding-top: 50px; /* Espaçamento do topo do texto */
     /* text-transform: uppercase; Trnasforma em letra Maiúscula gritante */
     font-variant: small-caps; /* Transforma em letras Maiúscula mais natural*/
@@ -33,6 +44,8 @@ header a, footer a {
 }
 
 section {
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
     padding-top: 10vh; /* Espaçamento em cima de 10% da altura */
     padding-bottom: 10vw; /* Espaçamento em baixo de 10% de altura */
     line-height: 2em; /* Espaçamento duplo da frase de baixo para a de cima */
@@ -61,6 +74,6 @@ header a:hover, footer a:hover {
 footer {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center; /* Centralizar o texto */
     padding: 10px;
 }
